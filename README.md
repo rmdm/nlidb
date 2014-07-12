@@ -3,7 +3,7 @@ NLIDB - Natural Language Interface to Database
 
 Main NLIDB module.
 
-Usage
+<!---Usage
 =====
 
 Firstly you need to configure Nlidb by passing it following objects (all required):
@@ -74,3 +74,4 @@ or
 - natural language query (in that case predefined structure will be used, but accuracy will be slightly lower)
 
 Nlidb returns an array of ```Readable``` in ```objectMode``` streams because of potential ambiguty of initial natural language query.
+-->
