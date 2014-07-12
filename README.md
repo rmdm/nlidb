@@ -10,16 +10,17 @@ Firstly you need to configure Nlidb by passing it following objects (all require
 
 1. an object with method ```streamData(match, relation)```, where match is an object which associate its keys (db attributes) with values, which can be either primitive values or arrays of primitive values; and relation is the name of db entity, containing corresponding attributes (nlidb is db-agonstic, only requirement is the ability to stream data, and to group set of attributes into named entities).
 2. links, an object which specifies links between entities. Used to resolve multy-entity queries. Format is the following:
-```javascript    
-{
-  entity1: {
-    entity2: {
-      attrOfEntity1: attrOfEntity2
+    
+    ```javascript    
+    {
+      entity1: {
+        entity2: {
+          attrOfEntity1: attrOfEntity2
+        }
+      },
+      ...
     }
-  },
-  ...
-}
-```
+    ```
 3. functions:
 ```javascript
 {
