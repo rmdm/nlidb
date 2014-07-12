@@ -64,12 +64,12 @@ When nlidb is configured function accepting one argument is returned.
 You need to pass to that function either:
 
 - natural language query parse tree with the following recursive structure:
-```
-tree is {treeKey: tree}, if there is one child, or
-tree is {treeKey: [tree, ...]}, if there is many children
-```
 
-or:
+           tree is {treeKey: tree}, if there is one child, or
+           tree is {treeKey: [tree, ...]}, if there is many children
+
+
+or
 
 - natural language query (in that case predefined structure will be used, but accuracy will be slightly lower)
 
