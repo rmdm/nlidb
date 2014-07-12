@@ -73,4 +73,4 @@ or:
 
 - natural language query (in that case predefined structure will be used, but accuracy will be slightly lower)
 
-Nlidb returns an array of streams because of potential ambiguty of initial natural language query.
+Nlidb returns an array of ```Readable``` in ```objectMode``` streams because of potential ambiguty of initial natural language query.
