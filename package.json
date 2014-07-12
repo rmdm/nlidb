@@ -1,0 +1,24 @@
+{
+  "name": "nlidb",
+  "version": "0.1.0",
+  "description": "Main NLIDB module",
+  "main": "lib/exports.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rmdm/nlidb"
+  },
+  "keywords": [
+    "nlidb",
+    "nlp"
+  ],
+  "author": "Dmitry Rumyantsev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmdm/nlidb/issues"
+  },
+  "homepage": "https://github.com/rmdm/nlidb",
+  "dependencies": {
+    "nlidb-core": "git://github.com/rmdm/nlidb-core",
+    "nlidb-query": "git://github.com/rmdm/nlidb-query"
+  }
+}
