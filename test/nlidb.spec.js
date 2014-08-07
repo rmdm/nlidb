@@ -3,7 +3,8 @@ var thesaurus = {
   return ['a', 'b'];
   }
 };
-var nlidb = require('../lib/nlidb')(thesaurus);
+var Nlidb = require('../lib/nlidb');
+var nlidb = new Nlidb(null, null, thesaurus);
 
 describe('NLIDB', function () {
   

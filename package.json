@@ -2,7 +2,7 @@
   "name": "nlidb",
   "version": "0.1.0",
   "description": "Main NLIDB module",
-  "main": "lib/exports.js",
+  "main": "lib/nlidb.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/rmdm/nlidb"
@@ -17,7 +17,7 @@
     "url": "https://github.com/rmdm/nlidb/issues"
   },
   "homepage": "https://github.com/rmdm/nlidb",
-  "dependencies": {
+  "devDependencies": {
     "nlidb-core": "git://github.com/rmdm/nlidb-core",
     "nlidb-query": "git://github.com/rmdm/nlidb-query"
   }
