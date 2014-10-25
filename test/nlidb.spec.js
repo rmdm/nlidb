@@ -11,11 +11,11 @@ describe('NLIDB', function () {
   it('has function treefy, used to make tree off a query string', function () {
     var str = '';
     var res = nlidb.treefy(str);
-    expect(Object.keys(res).length).toBe(2);
+    expect(Object.keys(res).length).toBe(3);
     
     var str = 'OneWord';
     var res = nlidb.treefy(str);
-    expect(Object.keys(res).length).toBe(2);
+    expect(Object.keys(res).length).toBe(3);
     expect(res.value).toBe('OneWord');
     
     var str = 'Two words';
