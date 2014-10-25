@@ -1,6 +1,6 @@
 {
   "name": "nlidb",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Main NLIDB module",
   "main": "lib/nlidb.js",
   "repository": {
